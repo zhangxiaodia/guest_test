@@ -1,0 +1,1231 @@
+{
+	"info": {
+		"_postman_id": "f54798a7-ee1c-42a2-87f1-3b86e8c0a493",
+		"name": "Fansclub",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "用户登陆",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e27b3ea6-0322-41fd-8b0f-351503189722",
+						"exec": [
+							"//var loginResponseData=JSON.parse(responseBody);",
+							"var loginResponseData=pm.response.json();",
+							"var token=loginResponseData.data.token;",
+							"console.log(token);",
+							"pm.environment.set(\"Token\",token);",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.globals.set(\"variable_key\", \"variable_value\");",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{domain}}/api/user/appLogin?password=qq123456&phone=13000000000",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"appLogin"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "qq123456"
+						},
+						{
+							"key": "phone",
+							"value": "13000000000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "资讯-热门",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "238d132c-f67b-44ff-8630-92da5e7897b4",
+						"exec": [
+							"var momentResponse=JSON.parse(responseBody);",
+							"//pm.environment.set(\"momentId\", momentResponse.data.momentList[0].id);",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/index/hotList?lastId=0&limit=10&token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"index",
+						"hotList"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "动态详情",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "84446e85-a81d-4532-8037-892f44cb0451",
+						"exec": [
+							"var commentListResponse=JSON.parse(responseBody);",
+							"pm.environment.set(\"commentId\", commentListResponse.data.commentList[0].id);",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/club/moment/commentList?lastId=0&momentId={{momentId}}&limit=10&token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"club",
+						"moment",
+						"commentList"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "0"
+						},
+						{
+							"key": "momentId",
+							"value": "{{momentId}}"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "动态评论",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "50c1e82f-75fd-4ade-9112-da81cfa3e00b",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "commentId",
+							"value": "{{commentId}}",
+							"type": "text"
+						},
+						{
+							"key": "momentId",
+							"value": "{{momentId}}",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "测试评论配图12",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"value": "http://chaping-fansclub.oss-cn-hangzhou.aliyuncs.com/user/20180920151315/5e46b8784dac458b861b7741bd0e395d.jpg",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dev.muggle-inc.com/api/club/moment/comment",
+					"protocol": "http",
+					"host": [
+						"dev",
+						"muggle-inc",
+						"com"
+					],
+					"path": [
+						"api",
+						"club",
+						"moment",
+						"comment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "通知中心-私信",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a95221b3-069d-4885-bf78-9724b4387362",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/message/private?lastId=0&limit=20&token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"message",
+						"private"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "20"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "通知中心-通知",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "305eb8cf-166d-4d71-ba3d-a3820f6524d5",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/message/private?lastId=0&limit=20&token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"message",
+						"private"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "20"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "资讯-社区-按热度",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "540cb8bf-6716-45a6-9f2d-f99d74b06f34",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/index/clubTopicList?lastId=8901&userKey=&type=&limit=10",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"index",
+						"clubTopicList"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "8901"
+						},
+						{
+							"key": "userKey",
+							"value": ""
+						},
+						{
+							"key": "type",
+							"value": ""
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "资讯-社区-发布时间",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9dafa958-b934-453a-8a75-85bf58ac8f42",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/index/clubTopicList?lastId=0&userKey=&type=createTime&limit=10&token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"index",
+						"clubTopicList"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "0"
+						},
+						{
+							"key": "userKey",
+							"value": ""
+						},
+						{
+							"key": "type",
+							"value": "createTime"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "资讯-社区-更新时间",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e0a24ef6-2bb2-49e5-a5cb-0fd8791dd6b1",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/index/clubTopicList?lastId=0&userKey=&type=updateTime&limit=10&token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"index",
+						"clubTopicList"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "0"
+						},
+						{
+							"key": "userKey",
+							"value": ""
+						},
+						{
+							"key": "type",
+							"value": "updateTime"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "资讯-关注",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "df935c62-7993-41c7-b2b5-1b8caadb0a5a",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/user/feedList?lastId=0&limit=10&token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"feedList"
+					],
+					"query": [
+						{
+							"key": "lastId",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "轮播图",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a0b8afc7-1b47-494c-a3e3-afa9d245a81f",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/banner?",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"banner"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "cb4be01542bcf49e456f4f442a350281",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "添加关注",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "720048f4-e18a-46c4-b208-470303c5c4e3",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "userId",
+							"value": "434",
+							"type": "text"
+						},
+						{
+							"key": "isFollow",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dev.muggle-inc.com/api/user/attention",
+					"protocol": "http",
+					"host": [
+						"dev",
+						"muggle-inc",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"attention"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "取消关注",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "6d9a8eb6-00c0-466a-b116-7d5b44614156",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "userId",
+							"value": "434",
+							"type": "text"
+						},
+						{
+							"key": "isFollow",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dev.muggle-inc.com/api/user/attention",
+					"protocol": "http",
+					"host": [
+						"dev",
+						"muggle-inc",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"attention"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "发布动态",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "22e6e904-a80d-44de-b187-83321ab2f636",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"address\": \"仓前镇葛巷村老年人活动中心\",\r\n\t\"clubId\": 0,\r\n\t\"content\": \"哈哈哈哈\",\r\n\t\"images\": [{\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181002\\/d8cf881f83a04237ae62322d122fc2ed.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181002\\/8918c8d791c9434bb62b452b232634f6.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181003\\/bc2c583f7d2942e48e2f34ca57e5518b.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181003\\/6c8e3970263e41eb86b5dccc3b35bd29.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181004\\/ee6c15a759574a2c8344b06d1c89f07a.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181004\\/88d9369ac06d4560b31689dd057ccba6.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181005\\/ef68c06a09b345919dbb629c4b875e5e.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181005\\/2f3b3ad200024e0e94c31ee5d2bb58d4.jpg\"\r\n\t}, {\r\n\t\t\"url\": \"http:\\/\\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\\/user\\/20181114181005\\/699f788b9e3f4f2e9b5b8529244e5b22.jpg\"\r\n\t}],\r\n\t\"latitude\": \"30.288132970270798\",\r\n\t\"longitude\": \"119.99962949644443\",\r\n\t\"notice\": 0,\r\n\t\"tags\": \"美剧迷,爆刷党,科技控,花臂咖啡师,废柴\",\r\n\t\"token\": \"{{Token}}\",\r\n\t\"topTime\": 0\r\n}"
+				},
+				"url": {
+					"raw": "{{domain}}/api/club/moment",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"club",
+						"moment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "url爬虫识别",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5e3d3b28-c6c7-4a3c-a577-821f8755ac7e",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://dev.muggle-inc.com/api/club/urlMoment?url=https%3A%2F%2Fm.weibo.cn%2F1929496477%2F4303422096904291&token={{Token}}",
+					"protocol": "http",
+					"host": [
+						"dev",
+						"muggle-inc",
+						"com"
+					],
+					"path": [
+						"api",
+						"club",
+						"urlMoment"
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "https%3A%2F%2Fm.weibo.cn%2F1929496477%2F4303422096904291"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "微博爬虫发布",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "032a6feb-10cf-42e7-8232-96e78718bffe",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"clubId\": 0,\r\n\t\"content\": \"\",\r\n\t\"images\": [],\r\n\t\"link\": {\r\n\t\t\"audio\": \"\",\r\n\t\t\"author\": \"杭州交通918\",\r\n\t\t\"createdAt\": 0,\r\n\t\t\"headImg\": \"https:\\/\\/imgaliyuncdn.miaopai.com\\/images\\/RePRTUHDT0ZFhUuvH~0GXLTe0AwodkwTfa6amA___HAUe_4.jpg\",\r\n\t\t\"headImgSmall\": \"https:\\/\\/imgaliyuncdn.miaopai.com\\/images\\/RePRTUHDT0ZFhUuvH~0GXLTe0AwodkwTfa6amA___HAUe_4.jpg\",\r\n\t\t\"imgList\": [],\r\n\t\t\"imgListObject\": [],\r\n\t\t\"momentId\": 0,\r\n\t\t\"singers\": \"\",\r\n\t\t\"source\": \"微博\",\r\n\t\t\"success\": 1,\r\n\t\t\"text\": \"中国人有了自己的推力矢量机！超机动！超激动！】今天，歼10B推力矢量验证机在第12届中国航展上成功进行了过失速机动飞行表演，展示了“榔头”机动、“赫伯斯特”机动、“眼镜蛇”机动、“直升机”机动等典型过失速机动飞行动作，标志我国推力矢量技术攻关取得重大突破！ \",\r\n\t\t\"title\": \"中国人有了自己的推力矢量机！超机动！超激动！】今天，歼10B推力矢量验证机在第12届中国航展上成功进行了过失速机动飞行表演，展示了“榔头”机动、“赫伯斯特”机动、“眼镜蛇”机动、“直升机”机动等典型过失速机动飞行动作，标志我国推力矢量技术攻关取得重大突破！ \",\r\n\t\t\"type\": 0,\r\n\t\t\"url\": \"https:\\/\\/m.weibo.cn\\/1929496477\\/4303422096904291\",\r\n\t\t\"video\": \"https:\\/\\/gslb.miaopai.com\\/stream\\/RePRTUHDT0ZFhUuvH~0GXLTe0AwodkwTfa6amA__.mp4?yx=&refer=weibo_app&vend=weibo&label=mp4_hd&mpflag=8&Expires=1542192448&ssig=41NAKGMxyb&KID=unistore,video\"\r\n\t},\r\n\t\"notice\": 0,\r\n\t\"token\": \"{{Token}}\",\r\n\t\"topTime\": 0\r\n}"
+				},
+				"url": {
+					"raw": "{{domain}}/api/club/moment",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"club",
+						"moment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "个人信息",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4aabbd8a-35ed-4111-838f-d1aa81632d8a",
+						"exec": [
+							"var profileResponseData=JSON.parse(responseBody);",
+							"var getphone=profileResponseData.data.phone;",
+							"var phone=pm.environment.get(\"phone\");",
+							"if (getphone==phone)",
+							"{",
+							"    tests['测试成功']=true;",
+							"}",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/user/profile?token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"profile"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "个人主页信息",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e98f9dec-1bd1-4b50-a615-59a5a31f024c",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/me/home?token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"me",
+						"home"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "账号绑定",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "548c8f21-712b-4b28-a222-3b7fc675dba7",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/user/bindInfo?token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"bindInfo"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "推送开关",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fec7fba7-1e8d-4d1d-836a-df339e557c3a",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/user/noticeSwitch?token={{Token}}&platform=2",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"noticeSwitch"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						},
+						{
+							"key": "platform",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "附近的人",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "bb067a0f-deeb-4bbe-b80f-8275372e1e82",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"OK\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"clubId\": 0,\r\n\t\"latitude\": \"30.28804\",\r\n\t\"longitude\": \"120.000142\",\r\n\t\"token\": \"{{Token}}\"\r\n}"
+				},
+				"url": {
+					"raw": "http://dev.muggle-inc.com/api/user/location",
+					"protocol": "http",
+					"host": [
+						"dev",
+						"muggle-inc",
+						"com"
+					],
+					"path": [
+						"api",
+						"user",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "创建群聊",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "clubId",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "tname",
+							"value": "群聊test3",
+							"type": "text"
+						},
+						{
+							"key": "tags",
+							"value": "😄O(∩_∩)O",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{domain}}/api/nim/createTeam",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"nim",
+						"createTeam"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "用户信息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/user/profile?token={{Token}}",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"user",
+						"profile"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "{{Token}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "版本信息",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/version",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "广告页",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{domain}}/api/appOpeningAd",
+					"host": [
+						"{{domain}}"
+					],
+					"path": [
+						"api",
+						"appOpeningAd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

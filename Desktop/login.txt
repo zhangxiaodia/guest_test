@@ -1,0 +1,8 @@
+{
+	"errcode": 0,
+	"errmsg": "OK",
+	"data": {
+		"token": "d41221f2c05a87af110fbc8a04e4ca9c",
+		"needBind": true
+	}
+}

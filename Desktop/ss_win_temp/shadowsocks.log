@@ -1,0 +1,1441 @@
+[2019-04-01 10:28:39] Shadowsocks started (4.1.3.1)
+[2019-04-01 10:28:40] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-01 10:28:52] Shadowsocks started (4.1.3.1)
+[2019-04-01 10:28:52] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-01 10:43:54] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:43:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:43:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:43:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:43:58] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:02] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:03] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:24] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:25] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:26] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:28] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:29] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:30] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:31] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:33] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:39] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:43] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:44] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:48] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:51] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:44:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:01] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:17] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:22] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:23] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:28] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:31] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:36] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:48] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:53] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:57] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:45:57] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:02] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:02] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:03] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:08] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:11] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:16] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:21] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:26] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:37] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:38] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:43] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:48] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:52] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:46:57] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:01] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:31] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:32] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:32] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:36] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:37] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:38] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:38] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:43] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:44] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:49] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:51] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:47:59] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:00] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:01] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:01] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:01] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:01] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:05] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:09] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:12] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:15] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:17] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:19] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:20] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:21] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:25] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:26] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:30] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:31] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:36] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:40] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:45] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:50] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:51] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:52] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:55] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:55] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:48:57] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:00] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:01] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:02] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:05] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:07] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:10] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:11] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:16] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:20] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:21] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:21] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:21] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:22] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:22] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:25] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:25] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:26] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:26] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:26] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:26] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:27] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:27] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:30] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:30] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:31] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:32] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:35] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:35] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:35] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:36] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:37] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:40] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:40] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:41] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:49:45] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:04] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:05] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:05] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:05] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:09] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:09] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:10] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:11] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:13] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:14] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:18] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:18] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:18] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:18] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:18] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:18] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:50:24] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:53:06] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:53:46] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:19] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:19] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:29] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:29] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:29] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:29] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:29] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:34] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:34] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:34] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:34] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:56:34] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:58:29] ss.zdaxue.cn:3389 timed out
+[2019-04-01 10:58:30] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:56] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:57] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:38:57] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:39:00] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:39:00] ss.zdaxue.cn:3389 timed out
+[2019-04-01 18:39:00] ss.zdaxue.cn:3389 timed out
+[2019-04-05 14:00:35] Shadowsocks started (4.1.3.1)
+[2019-04-05 14:00:35] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-05 14:00:48] Shadowsocks started (4.1.3.1)
+[2019-04-05 14:00:48] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-05 14:36:11] controller stopped
+[2019-04-05 14:36:11] os suspend
+[2019-04-05 14:44:29] os wake up
+[2019-04-05 14:44:39] Shadowsocks started (4.1.3.1)
+[2019-04-05 14:44:39] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-05 14:44:39] controller started
+[2019-04-05 15:49:20] Shadowsocks started (4.1.3.1)
+[2019-04-05 15:49:20] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-05 15:49:28] Shadowsocks started (4.1.3.1)
+[2019-04-05 15:49:28] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-09 15:16:10] Shadowsocks started (4.1.3.1)
+[2019-04-09 15:16:10] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-09 15:48:33] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:48:38] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:50:49] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:50:54] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:55:06] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:55:11] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:55:32] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:55:37] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:55:42] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:55:43] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:55:47] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:57:09] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:58:38] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:58:43] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:43] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:44] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:44] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:48] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:48] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:51] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:53] ss.zdaxue.cn:3389 timed out
+[2019-04-09 15:59:58] ss.zdaxue.cn:3389 timed out
+[2019-04-09 16:00:16] ss.zdaxue.cn:3389 timed out
+[2019-04-09 16:00:21] ss.zdaxue.cn:3389 timed out
+[2019-04-09 16:00:27] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:04] Shadowsocks started (4.1.3.1)
+[2019-04-12 14:01:04] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-12 14:01:29] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:29] System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+[2019-04-12 14:01:30] Shadowsocks started (4.1.3.1)
+[2019-04-12 14:01:30] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-12 14:01:36] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:40] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:41] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:42] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:45] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:50] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:01:56] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:03:27] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:03:32] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:05:26] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:05:44] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:05:50] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:06:33] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:06:38] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:06:43] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:06:48] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:06:53] ss.zdaxue.cn:3389 timed out
+[2019-04-12 14:07:58] ss.zdaxue.cn:3389 timed out
+[2019-04-15 13:08:10] Shadowsocks started (4.1.3.1)
+[2019-04-15 13:08:10] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-15 13:08:20] System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 从传输流收到意外的 EOF 或 0 个字节。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+[2019-04-15 13:08:20] Shadowsocks started (4.1.3.1)
+[2019-04-15 13:08:20] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-15 17:54:35] ss.zdaxue.cn:3389 timed out
+[2019-04-15 17:54:40] ss.zdaxue.cn:3389 timed out
+[2019-04-15 17:55:48] ss.zdaxue.cn:3389 timed out
+[2019-04-15 17:55:48] ss.zdaxue.cn:3389 timed out
+[2019-04-15 17:55:53] ss.zdaxue.cn:3389 timed out
+[2019-04-15 17:55:53] ss.zdaxue.cn:3389 timed out
+[2019-04-15 18:06:52] ss.zdaxue.cn:3389 timed out
+[2019-04-15 18:29:17] ss.zdaxue.cn:3389 timed out
+[2019-04-15 18:29:22] ss.zdaxue.cn:3389 timed out
+[2019-04-15 19:04:00] ss.zdaxue.cn:3389 timed out
+[2019-04-15 19:10:04] ss.zdaxue.cn:3389 timed out
+[2019-04-15 19:10:39] ss.zdaxue.cn:3389 timed out
+[2019-04-15 19:16:43] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:00:47] Shadowsocks started (4.1.3.1)
+[2019-04-16 17:00:47] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-16 17:01:01] Shadowsocks started (4.1.3.1)
+[2019-04-16 17:01:01] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-16 17:07:07] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:07:07] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:07:34] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:07:35] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:08:21] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:08:26] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:09:35] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:09:55] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:09:55] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:10:00] ss.zdaxue.cn:3389 timed out
+[2019-04-16 17:10:00] ss.zdaxue.cn:3389 timed out
+[2019-04-16 18:57:19] ss.zdaxue.cn:3389 timed out
+[2019-04-16 18:58:23] ss.zdaxue.cn:3389 timed out
+[2019-04-16 19:41:34] ss.zdaxue.cn:3389 timed out
+[2019-04-16 19:41:57] ss.zdaxue.cn:3389 timed out
+[2019-04-16 19:43:36] ss.zdaxue.cn:3389 timed out
+[2019-04-16 20:24:46] ss.zdaxue.cn:3389 timed out
+[2019-04-16 20:24:51] ss.zdaxue.cn:3389 timed out
+[2019-04-16 20:24:56] ss.zdaxue.cn:3389 timed out
+[2019-04-16 20:25:01] ss.zdaxue.cn:3389 timed out
+[2019-04-16 20:25:58] ss.zdaxue.cn:3389 timed out
+[2019-04-16 20:35:00] ss.zdaxue.cn:3389 timed out
+[2019-04-22 17:20:16] Shadowsocks started (4.1.3.1)
+[2019-04-22 17:20:16] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-23 13:23:21] Shadowsocks started (4.1.3.1)
+[2019-04-23 13:23:21] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-23 13:23:33] Shadowsocks started (4.1.3.1)
+[2019-04-23 13:23:33] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-23 13:23:38] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:38] System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+[2019-04-23 13:23:40] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:41] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:41] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:43] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:45] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:48] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:51] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:53] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:54] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:54] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:54] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:23:58] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:24:01] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:24:01] ss.zdaxue.cn:3389 timed out
+[2019-04-23 13:25:00] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:17:45] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:18:12] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:19:00] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:43:25] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:44:46] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:55:10] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:55:24] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:55:51] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:56:13] ss.zdaxue.cn:3389 timed out
+[2019-04-23 14:56:48] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:12:51] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:13:56] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:14:02] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:21:12] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:21:17] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:24:51] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:24:52] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:24:54] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:24:54] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:24:59] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:24:59] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:25:04] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:25:04] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:25:09] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:32:31] Shadowsocks started (4.1.3.1)
+[2019-04-23 15:32:31] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-04-23 15:32:37] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:32:37] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:32:57] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:32:57] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:32:57] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:32:57] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:33:02] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:33:02] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:33:02] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:33:02] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:33:25] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:33:59] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:34:04] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:34:24] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:45:37] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:45:44] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:45:49] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:45:58] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:46:03] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:46:15] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:46:20] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:46:38] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:46:39] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:46:43] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:47:12] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:47:18] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:47:23] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:47:58] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:48:03] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:48:16] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:48:38] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:49:46] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:50:13] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:53:46] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:53:51] ss.zdaxue.cn:3389 timed out
+[2019-04-23 15:58:51] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:56:58] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:56:58] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:56:58] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:56:59] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:00] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:01] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:03] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:04] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:05] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:06] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:08] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:57:10] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:59:48] ss.zdaxue.cn:3389 timed out
+[2019-04-23 17:59:53] ss.zdaxue.cn:3389 timed out
+[2019-04-23 18:10:37] ss.zdaxue.cn:3389 timed out
+[2019-04-23 19:09:08] ss.zdaxue.cn:3389 timed out
+[2019-04-23 19:09:57] ss.zdaxue.cn:3389 timed out
+[2019-04-23 19:11:33] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:56:50] Shadowsocks started (4.1.3.1)
+[2019-05-06 10:56:50] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-06 10:56:58] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:57:12] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 连接被意外关闭。
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2019-05-06 10:57:12] Shadowsocks started (4.1.3.1)
+[2019-05-06 10:57:12] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-06 10:57:17] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:57:17] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:57:22] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:57:27] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:59:40] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:59:45] ss.zdaxue.cn:3389 timed out
+[2019-05-06 10:59:50] ss.zdaxue.cn:3389 timed out
+[2019-05-06 11:01:43] ss.zdaxue.cn:3389 timed out
+[2019-05-06 11:01:48] ss.zdaxue.cn:3389 timed out
+[2019-05-06 11:28:39] ss.zdaxue.cn:3389 timed out
+[2019-05-06 11:28:44] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:00] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:01] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:05] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:06] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:06] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:06] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:06] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:07] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:07] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:19] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:19] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:19] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:19] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:20] Shadowsocks started (4.1.3.1)
+[2019-05-06 16:33:20] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-06 16:33:26] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:26] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:26] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:40] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:45] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:49] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:33:51] ss.zdaxue.cn:3389 timed out
+[2019-05-06 16:34:31] ss.zdaxue.cn:3389 timed out
+[2019-05-06 18:55:23] Shadowsocks started (4.1.3.1)
+[2019-05-06 18:55:23] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-07 17:07:33] Shadowsocks started (4.1.3.1)
+[2019-05-07 17:07:33] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-07 17:07:41] System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 从传输流收到意外的 EOF 或 0 个字节。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+[2019-05-07 17:07:41] Shadowsocks started (4.1.3.1)
+[2019-05-07 17:07:41] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-07 17:18:13] ss.zdaxue.cn:3389 timed out
+[2019-05-07 17:18:18] ss.zdaxue.cn:3389 timed out
+[2019-05-07 17:18:54] ss.zdaxue.cn:3389 timed out
+[2019-05-07 17:18:56] ss.zdaxue.cn:3389 timed out
+[2019-05-07 17:18:59] ss.zdaxue.cn:3389 timed out
+[2019-05-07 17:19:08] ss.zdaxue.cn:3389 timed out
+[2019-05-07 17:19:13] ss.zdaxue.cn:3389 timed out
+[2019-05-14 09:59:33] Shadowsocks started (4.1.3.1)
+[2019-05-14 09:59:33] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-14 09:59:48] System.Net.WebException: 在 WebClient 请求期间发生异常。 ---> System.IO.IOException: 从传输流收到意外的 EOF 或 0 个字节。
+   在 System.Net.ConnectStream.EndRead(IAsyncResult asyncResult)
+   在 System.Net.WebClient.DownloadBitsReadCallbackState(DownloadBitsState state, IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+[2019-05-14 09:59:48] Shadowsocks started (4.1.3.1)
+[2019-05-14 09:59:48] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-14 10:00:00] Shadowsocks started (4.1.3.1)
+[2019-05-14 10:00:00] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-14 10:00:04] Shadowsocks started (4.1.3.1)
+[2019-05-14 10:00:04] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-14 10:00:18] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:23] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:37] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:38] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:39] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:42] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:42] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:42] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:42] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:42] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:43] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:44] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:47] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:47] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:47] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:47] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:48] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:48] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:48] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:52] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:52] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:53] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:53] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:53] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:53] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:57] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:57] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:58] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:58] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:00:59] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:00] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:00] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:01] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:01] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:01] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:01] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:01] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:01] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:03] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:04] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:04] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:05] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:05] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:05] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:06] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:08] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:09] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:10] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:10] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:11] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:13] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:13] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:16] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:17] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:18] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:18] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:19] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:19] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:22] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:23] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:23] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:24] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:24] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:28] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:29] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:29] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:30] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:34] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:34] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:35] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:35] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:37] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:38] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:39] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:40] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:42] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:43] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:44] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:48] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:53] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:54] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:55] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:56] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:58] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:58] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:01:59] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:00] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:01] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:03] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:03] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:04] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:09] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:09] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:10] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:14] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:14] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:15] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:18] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:19] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:19] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:19] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:23] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:24] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:24] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:27] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:27] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:29] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:32] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:34] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:34] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:35] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:35] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:35] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:36] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:37] ss.zdaxue.cn:3389 timed out
+[2019-05-14 10:02:37] ss.zdaxue.cn:3389 timed out
+[2019-05-16 11:42:29] Shadowsocks started (4.1.3.1)
+[2019-05-16 11:42:29] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-16 11:44:24] Shadowsocks started (4.1.3.1)
+[2019-05-16 11:44:24] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-16 11:44:32] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:44:37] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:44:37] System.Reflection.TargetInvocationException: 操作过程中出现异常，结果无效。  有关异常的详细信息，请查看 InnerException。 ---> System.Net.WebException: 基础连接已经关闭: 发送时发生错误。 ---> System.IO.IOException: 由于远程方已关闭传输流，身份验证失败。
+   在 System.Net.TlsStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.PooledStream.EndWrite(IAsyncResult asyncResult)
+   在 System.Net.ConnectStream.WriteHeadersCallback(IAsyncResult ar)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   在 System.Net.WebClient.GetWebResponse(WebRequest request, IAsyncResult result)
+   在 System.Net.WebClient.DownloadBitsResponseCallback(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary()
+   在 Shadowsocks.Controller.UpdateChecker.http_DownloadStringCompleted(Object sender, DownloadStringCompletedEventArgs e)
+[2019-05-16 11:45:02] Shadowsocks started (4.1.3.1)
+[2019-05-16 11:45:02] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-16 11:45:08] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:45:08] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:45:08] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:45:08] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:45:08] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:45:08] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:45:14] ss.zdaxue.cn:8388 timed out
+[2019-05-16 11:45:17] Shadowsocks started (4.1.3.1)
+[2019-05-16 11:45:17] 
+=========================
+Registered Encryptor Info
+aes-128-cfb=>StreamOpenSSLEncryptor
+aes-192-cfb=>StreamOpenSSLEncryptor
+aes-256-cfb=>StreamOpenSSLEncryptor
+aes-128-ctr=>StreamOpenSSLEncryptor
+aes-192-ctr=>StreamOpenSSLEncryptor
+aes-256-ctr=>StreamOpenSSLEncryptor
+bf-cfb=>StreamOpenSSLEncryptor
+camellia-128-cfb=>StreamOpenSSLEncryptor
+camellia-192-cfb=>StreamOpenSSLEncryptor
+camellia-256-cfb=>StreamOpenSSLEncryptor
+rc4-md5=>StreamOpenSSLEncryptor
+salsa20=>StreamSodiumEncryptor
+chacha20=>StreamSodiumEncryptor
+chacha20-ietf=>StreamSodiumEncryptor
+aes-128-gcm=>AEADOpenSSLEncryptor
+aes-192-gcm=>AEADOpenSSLEncryptor
+aes-256-gcm=>AEADOpenSSLEncryptor
+chacha20-ietf-poly1305=>AEADOpenSSLEncryptor
+xchacha20-ietf-poly1305=>AEADSodiumEncryptor
+=========================
+
+[2019-05-16 14:25:40] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:25:50] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:25:55] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:27:31] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:09] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:11] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:14] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:33] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:33] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:33] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:38] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:38] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:45] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:50] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:52] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:30:57] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:31:25] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:31:30] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:31:41] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:31:46] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:32:05] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:32:34] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:32:35] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:32:35] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:32:40] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:32:45] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:47:11] ss.zdaxue.cn:3389 timed out
+[2019-05-16 14:47:20] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:10:51] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:10:51] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:00] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:00] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:03] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:05] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:10] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:10] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:10] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:15] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:15] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:16] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:16] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:16] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:16] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:21] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:21] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:21] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:21] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:25] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:26] ss.zdaxue.cn:3389 timed out
+[2019-05-16 15:11:26] ss.zdaxue.cn:3389 timed out

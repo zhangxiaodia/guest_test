@@ -1,0 +1,16 @@
+create table student
+(
+id int,
+name varchar(12),
+phone char(11)
+);
+create table score
+(
+name varchar(12),
+score int
+);
+insert  into student(id,name,phone) values(4,"ha4","13000000003"),(5,"ha5","13000000004");
+insert  into score(name,score) values("ha4",100),("ha5",60);
+update student set name="test" where id=1;
+select student.name,score,phone from student inner join on score where student.name=score.name;
+select student.name,score,phone from student inner join score on score.name=student.name;

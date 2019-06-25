@@ -1,0 +1,26 @@
+{
+	"errcode": 0,
+	"errmsg": "OK",
+	"data": {
+		"id": 488,
+		"userId": 488,
+		"userName": "fc_OHeraNfY",
+		"sex": 1,
+		"headImg": "http:\/\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\/image\/user\/defaultHead.png",
+		"headImgSmall": "http:\/\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\/image\/user\/defaultHead.png?x-oss-process=image\/resize,w_180,h_180,m_fill\/format,jpg",
+		"backgroundImg": "http:\/\/chaping-fansclub.oss-cn-hangzhou.aliyuncs.com\/image\/user\/defaultHead.png",
+		"signature": "",
+		"country": "",
+		"province": "",
+		"city": "",
+		"isSuperAdmin": false,
+		"clubAdmin": [],
+		"lastLoginTime": 0,
+		"passedTime": null,
+		"status": 1,
+		"phone": "13054000000",
+		"outId": "qFNpv9Um7f3x9vnUMCvKoPll8BEBWxFj",
+		"nimToken": "",
+		"newUserJobPassed": 0
+	}
+}

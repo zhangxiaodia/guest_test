@@ -1,0 +1,15 @@
+{
+	"errcode": 0,
+	"errmsg": "OK",
+	"data": {
+		"id": 111,
+		"version": "2.2.0",
+		"updateType": 1,
+		"title": "≤‚ ‘",
+		"description": "1",
+		"createdAt": 1559199278,
+		"passed": true,
+		"appDownloadUrl": "http:\/\/fansclub-dev.oss-cn-hangzhou.aliyuncs.com\/app_dev\/FANSCLUB_2.2.0.apk",
+		"newUserJob": 1
+	}
+}

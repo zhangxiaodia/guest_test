@@ -1,0 +1,26 @@
+{
+	"errcode": 0,
+	"errmsg": "OK",
+	"data": {
+		"id": 2071,
+		"userId": 2071,
+		"userName": "户主",
+		"sex": 1,
+		"headImg": "http:\/\/fansclub-dev.oss-cn-hangzhou.aliyuncs.com\/user\/20190529170622\/915035accf7748d9aca479b377025cbb.jpg",
+		"headImgSmall": "http:\/\/fansclub-dev.oss-cn-hangzhou.aliyuncs.com\/user\/20190529170622\/915035accf7748d9aca479b377025cbb.jpg?x-oss-process=image\/resize,w_180,h_180,m_fill\/format,jpg",
+		"backgroundImg": "http:\/\/fansclub-dev.oss-cn-hangzhou.aliyuncs.com\/user\/20190529170622\/915035accf7748d9aca479b377025cbb.jpg",
+		"signature": "还有",
+		"country": "",
+		"province": "",
+		"city": "",
+		"isSuperAdmin": false,
+		"clubAdmin": [],
+		"lastLoginTime": 1559120783,
+		"passedTime": "1分钟前",
+		"status": 1,
+		"phone": "16454548488",
+		"outId": "zlenoduqhkrkhltvx0xb20vyd1ttmhpb",
+		"nimToken": "5930afb1b94089e0688f9f9cdf753ee4",
+		"newUserJobPassed": 1
+	}
+}

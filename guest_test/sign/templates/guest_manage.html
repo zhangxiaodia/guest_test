@@ -1,0 +1,82 @@
+<html lang="zh_CN">
+<head>
+	{% load bootstrap3 %}
+	{% bootstrap_css %}
+	{% bootstrap_javascript %}
+	<title>guest manage</title>
+</head>
+<body role="document">
+	<!--导航栏-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a calss="navbar-brand" href='/guest_manage/'>Guest Manage System</a>				
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="/event_manage/">发布会</a></li>
+					<li class="active"><a href="#">嘉宾</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">{{user}}</a></li>
+					<li><a href="/loginout">退出</a></li>
+				</ul>				
+			</div>			
+		</div>		
+	</nav>
+	<!--搜索框-->
+	<div class="page-header" style="padding-top: 60px;">
+		<div id="navbar" class="collapse navbar-collapse">
+			<form class="navbar-form" method="get" action="/search_realname/">
+				<div class="form-group">
+					<input name="realname" type="text" placeholder="请输入搜索内容" class="form-control">
+				</div>
+				<button type="submit" class="btn btn-success">搜索</button>
+				<a href="/add_guest">添加</a>
+			</form>
+		</div>		
+	</div>
+	<!--发布会列表--> 
+	<div class="row" style="padding-top: 80px;"> 
+		<div class="col-md-6">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>id</th><th>用户名</th><th>联系方式</th><th>邮箱</th><th>签名</th><th>事件</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for guest in guests %}
+					<tr>
+						<td>{{guest.id}}</td>
+						<td>{{guest.realname}}</td>
+						<td>{{guest.phone}}</td>
+						<td>{{guest.mail}}</td>
+						<td>{{guest.sign}}</td>
+						<td>{{guest.event}}</td>
+						<td>
+
+					</tr>
+					{% endfor %}
+				</tbody>				
+			</table>			
+		</div>
+	</div>
+	<!--分页器-->
+	<div class="pagination">
+		<span class="step-links">
+			{% if events.has_previous %}
+				<a href="?page={{events.previous_page_number}}">previous</a>
+			{% endif %}
+			<span class="current">
+				Page {{events.number}} of {{events.paginator.num_pages}} .
+			</span>
+			{% if events.has_next %}
+				<a href="?page={{events.next_page_number}}">next</a>
+			{% endif %}
+		</span>
+			
+		
+	</div>
+</body>
+</html>
